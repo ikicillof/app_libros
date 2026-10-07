@@ -13,7 +13,6 @@
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.117.3",
     "next": "16.4.0",
-    "prisma": "7.10.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -24,10 +23,14 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "prisma": "7.10.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
   "engines": {
     "node": ">=20.9.0"
+  },
+  "overrides": {
+    "mysql2": "^3.24.5"
   }
 }
